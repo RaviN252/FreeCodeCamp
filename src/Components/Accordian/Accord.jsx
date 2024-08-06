@@ -23,7 +23,6 @@ function Accord() {
     else cpyMultiple.splice(findIndexOfCurrentId, 1);
     setMultiple(cpyMultiple);
   }
-
   return (
     <div className="wrapper">
       <button onClick={() => SetEmselection(!emselection)}>
